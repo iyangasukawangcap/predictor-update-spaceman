@@ -2,19 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Spaceman Predictor</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <div class="background"></div>
 
   <div class="container">
-    <div class="astronaut"></div>
+    <img src="astronaut.png" class="astronaut" alt="Astronaut" />
     <h1>Spaceman Predictor</h1>
     <p class="subtitle">Prediksi multiplier otomatis hingga 5.000×</p>
     <div id="result">Multiplier: --</div>
+    <img src="crash.gif" class="crash" alt="Crash animation" />
   </div>
+
+  <audio id="sound" src="sound.mp3" preload="auto"></audio>
 
   <script src="script.js"></script>
 </body>
